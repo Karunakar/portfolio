@@ -1,11 +1,12 @@
+/* ===============================
+   GLOBAL CSS
+================================== */
 .custom_hr {
 	border: 2px solid #2d3c49;
 	height: 1px;
 	background-repeat: repeat-x;
-	} 
-	
-	
-a{
+}
+a {
 	color: #2d3c49;
 }
 
@@ -19,7 +20,7 @@ a{
 }
 
 .photo-circle {
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .border-20 {
@@ -27,7 +28,6 @@ a{
 	margin-bottom: 0px;
 	margin-top: 25px;
 	font-size: 30px;
-
 }
 
 .border-10 {
@@ -37,11 +37,9 @@ a{
 	font-size: 30px;
 }
 
-
 .light-blue-text {
 	color: #7d97ad;
 }
-
 
 .developer-name {
 	font-size: 60px;
@@ -65,7 +63,6 @@ a{
 	font-weight: bold;
 }
 
-
 .topic-img {
 	width: 100%;
 }
@@ -75,16 +72,17 @@ a{
 	height:100px;
 }
 
-
 * {
 	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
-
+/* ==================================
+	@media queries for 300 px
+===================================== */
 @media (min-width: 300px) {
 
 	.profile-logo {
@@ -101,6 +99,9 @@ a{
 	}
 }
 
+/* ==================================
+	@media queries for 360 px
+===================================== */
 @media (min-width: 360px) {
 	
 	.profile-logo {
@@ -117,6 +118,9 @@ a{
 	}
 }
 
+/* ==================================
+	@media queries for 600 px
+===================================== */
 @media (min-width: 600px) {
 	
 	.developer-name {
@@ -128,7 +132,11 @@ a{
 	}
 }
 
-@media (min-width: 768px) {
+/* ==================================
+	@media queries for 765 px
+===================================== */
+@media (min-width: 765px) {
+	
 	.developer-name {
 		font-size:45px;
 	}
@@ -145,19 +153,21 @@ a{
 	}
 	
 	.developer-role {
-		font-size: 25px
+		font-size: 25px;
 	}
 }
 
+/* ==================================
+	@media queries for 926 px
+===================================== */
 @media (min-width: 926px) {
-
 	
 	.developer-name {
 		font-size:45px;
 	}
 	
 	.developer-role {
-		font-size: 25px
+		font-size: 25px;
 	}
 }
 
