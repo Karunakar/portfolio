@@ -15,10 +15,14 @@ a {
 }
 
 .col-md-8 {
-	float:right;
+	//float:right;
 	margin: 10px 0 0 0;
 }
 
+.custom-col-md-8 {
+	float:right;
+	//margin: 10px 0 0 0;
+}
 .photo-circle {
 	border-radius: 50%;
 }
@@ -72,30 +76,24 @@ a {
 	height:100px;
 }
 
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
 
 /* ==================================
 	@media queries for 300 px
 ===================================== */
 @media (min-width: 300px) {
 
-	.profile-logo {
-		width:80px;
-		height:80px
-	}
-	
 	.developer-name {
-		font-size:25px;
+		font-size:20px
 	}
 	
 	.developer-role {
-		font-size: 15px;
+		font-size: 10px
+	}
+	.col-md-8 {
+       max-width: 50.666667%;
+	}
+	.custom_log_width {
+       width: 45%;
 	}
 }
 
@@ -104,10 +102,7 @@ a {
 ===================================== */
 @media (min-width: 360px) {
 	
-	.profile-logo {
-		width:80px;
-		height:80px;
-	}
+	
 	
 	.developer-name {
 		font-size:30px
@@ -116,36 +111,58 @@ a {
 	.developer-role {
 		font-size: 15px
 	}
+	.col-md-8 {
+       max-width: 50.666667%;
+	}
+	.custom_log_width {
+       width: 45%;
+	}
 }
 
-/* ==================================
-	@media queries for 600 px
-===================================== */
-@media (min-width: 600px) {
+
 	
-	.developer-name {
-		font-size:40px
-	}
-	
-	.developer-role {
-		font-size: 25px
-	}
-}
+
 
 /* ==================================
 	@media queries for 765 px
 ===================================== */
-@media (min-width: 765px) {
+@media (min-width: 650px) {
+	
+	.developer-name {
+		font-size:40px;
+	}
+	
+	.developer-role {
+		font-size: 20px;
+	}
+	
+	.col-md-8 {
+       max-width: 50.666667%;
+	}
+	
+	.custom_log_width {
+       width: 45%;
+	}
+}
+
+
+/* ==================================
+	@media queries for 770 px
+===================================== */
+@media (min-width: 770px) {
 	
 	.developer-name {
 		font-size:45px;
 	}
 	
 	.developer-role {
-		font-size: 25px;
+		font-size: 20px;
 	}
 }
 
+/* ==================================
+	@media queries for 926px
+===================================== */
 @media (min-width: 926px) {
 	
 	.developer-name {
@@ -158,9 +175,9 @@ a {
 }
 
 /* ==================================
-	@media queries for 926 px
+	@media queries for 940 px
 ===================================== */
-@media (min-width: 926px) {
+@media (min-width: 930px) {
 	
 	.developer-name {
 		font-size:45px;
