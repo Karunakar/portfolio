@@ -101,9 +101,7 @@ a {
 	@media queries for 360 px
 ===================================== */
 @media (min-width: 360px) {
-	
-	
-	
+
 	.developer-name {
 		font-size:30px
 	}
@@ -120,11 +118,8 @@ a {
 }
 
 
-	
-
-
 /* ==================================
-	@media queries for 765 px
+	@media queries for 650 px
 ===================================== */
 @media (min-width: 650px) {
 	
@@ -175,7 +170,7 @@ a {
 }
 
 /* ==================================
-	@media queries for 940 px
+	@media queries for 930 px
 ===================================== */
 @media (min-width: 930px) {
 	
