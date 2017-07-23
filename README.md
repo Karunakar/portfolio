@@ -1,20 +1,12 @@
-# ud036_StarterCode
-Source code for a Movie Trailer website.
+# Portfolio_website
+Source code for a My Own portfolio website.
 
 # Instalation
-
-##Install Python
- Install Python 2X version and Please see [Python Documentation](https://www.python.org/downloads/) for installing python
-
-```python
-    Downlaod this code and unzip, open in the CMD/command prompt
-    cd videos
-    python show_movies_on_browser.py
-
-```
+Download this git repo or clone into your system
+Open the portfolio.html and you can see my portfolio
 
 ### License
-
-This sample `ud036_StarterCode` is a sample movie trailer website from udacity.
-Please do the changes and make a pull request
-Email me if you have any questions on revurikarna@gmail.com
+This is opensource and my own portfolio.
+Email me if you you need any help in making your portfolio revurikarna@gmail.com
+If you want you can clone or download, make your website. 
+If you want any custom chnages, Please do the changes and make a pull request
