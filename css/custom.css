@@ -1,5 +1,5 @@
 /* ===============================
-   GLOBAL CSS
+   GLOBAL for CSS
 ================================== */
 .custom_hr {
 	border: 2px solid #2d3c49;
@@ -15,13 +15,11 @@ a {
 }
 
 .col-md-8 {
-	//float:right;
 	margin: 10px 0 0 0;
 }
 
 .custom-col-md-8 {
 	float:right;
-	//margin: 10px 0 0 0;
 }
 .photo-circle {
 	border-radius: 50%;
@@ -41,7 +39,7 @@ a {
 	font-size: 30px;
 }
 
-.light-blue-text {
+.feature-text-blue {
 	color: #7d97ad;
 }
 
@@ -54,12 +52,11 @@ a {
 	margin: 10px 0;
 }
 
-.profile-logo {
+.my-logo {
 	margin-top: 20px;
 }
 
-.header-sub {
-	padding: 0px 10px;
+.header-subtitle {	
 	font-size: 30px;
 }
 
@@ -71,14 +68,13 @@ a {
 	width: 100%;
 }
 
-.profile-logo {
+.my-logo {
 	width:100px;
 	height:100px;
 }
 
-
 /* ==================================
-	@media queries for 300 px
+	media for 300 px
 ===================================== */
 @media (min-width: 300px) {
 
@@ -98,7 +94,7 @@ a {
 }
 
 /* ==================================
-	@media queries for 360 px
+	media for 360 px
 ===================================== */
 @media (min-width: 360px) {
 
@@ -119,7 +115,7 @@ a {
 
 
 /* ==================================
-	@media queries for 650 px
+	media for 650 px
 ===================================== */
 @media (min-width: 650px) {
 	
@@ -142,7 +138,7 @@ a {
 
 
 /* ==================================
-	@media queries for 770 px
+	media for 770 px
 ===================================== */
 @media (min-width: 770px) {
 	
@@ -156,7 +152,7 @@ a {
 }
 
 /* ==================================
-	@media queries for 926px
+	media for 926px
 ===================================== */
 @media (min-width: 926px) {
 	
@@ -170,7 +166,7 @@ a {
 }
 
 /* ==================================
-	@media queries for 930 px
+	media for 930 px
 ===================================== */
 @media (min-width: 930px) {
 	
@@ -182,4 +178,3 @@ a {
 		font-size: 25px;
 	}
 }
-
