@@ -1,8 +1,12 @@
-# Portfolio_website
-Source code for My Own portfolio website.
+# Catalog_website
+Source code for My Own Catalog website.
 
 # Instalation
-Download this and Open the portfolio.html and you can see my portfolio
+1. Clone this repository  
+2. Get the Vigrant & Oracle  Vm  & get the udacity vigrant version
+2. run python categories_menu_setup.py
+2. run python project.py
+3. access it from localhost:5000
 
 ### License
 This is opensource and my own portfolio.
